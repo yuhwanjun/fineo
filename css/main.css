@@ -176,21 +176,23 @@ section > h2 {
 }
 
 .maintext{
+    font-family: 'Noto Sans KR', sans-serif;
     word-break: keep-all;
     word-wrap: break-word;
-    font-size: 18pt;
-    font-weight: 500;
-    line-height: 44px;   
+    font-size: 17pt;
+    word-spacing: -2px;
+    font-weight: 400;
+    line-height: 42px;   
 }
 
 .maintext_eng{
+    font-family: 'Noto Sans KR', sans-serif;
     word-break: keep-all;
     word-wrap: break-word;
-    font-size: 18pt;
-    font-weight: 500;
+    font-size: 17pt;
+    font-weight: 400;
     line-height: 35px;   
 }
-
 
 .box{
     height: 100vh;
@@ -201,18 +203,17 @@ section > h2 {
       
 }
 .index{
-    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    font-family: 'Noto Sans KR', sans-serif;
     position: absolute;
     top: 10%;
-    margin-left: 3.5%;
+    margin-left: 3%;
     font-size: 25pt;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 50px;
     text-decoration: underline;
     transform: rotate(-8deg)
 }
 .p1{
-    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
     z-index: 10;
     position: absolute;
     margin-left: 17.5%;
@@ -220,7 +221,7 @@ section > h2 {
     top: 15%;
 }
 .p2{
-    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    z-index: 10;
     position: absolute;
     margin-left: 57.5%;
     width: 35%;
@@ -228,21 +229,20 @@ section > h2 {
 }
 
 .pop{
-    display: none;
-}
+    display: none;}
 
 .bb{
-    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    font-family: 'Noto Sans KR', sans-serif;
     position: absolute;
-    width:80%;
+    width:70%;
     top:50px;
-    left:20%;
+    left:30%;
     z-index: 100;
     word-break: keep-all;
     word-wrap: break-word;
     font-size: 13pt;
-    font-weight: 500;
-    line-height: 25px;
+    font-weight: 400;
+    line-height: 27px;
     background-color: black;
     padding: 15px;
     border: 1px solid magenta;
