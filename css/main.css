@@ -211,10 +211,11 @@ section > h2 {
     font-weight: 400;
     line-height: 50px;
     text-decoration: underline;
+    
     transform: rotate(-8deg)
 }
 .p1{
-    z-index: 10;
+    z-index: 12;
     position: absolute;
     margin-left: 17.5%;
     width: 35%;
@@ -235,8 +236,8 @@ section > h2 {
     font-family: 'Noto Sans KR', sans-serif;
     position: absolute;
     width:70%;
-    top:50px;
-    left:30%;
+    top:0px;
+    left:110%;
     z-index: 100;
     word-break: keep-all;
     word-wrap: break-word;
@@ -248,7 +249,12 @@ section > h2 {
     border: 1px solid magenta;
 }
 
+#big_table{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 8pt;
+}
+
 a:link { color: white; text-decoration: none; }
 a:visited { color: white; text-decoration: none; }
-a:hover { color: white; text-decoration: none; background-color: magenta;}
+a:hover { color: white; text-decoration: none; background-color: magenta; padding-top: 2px;}
 

@@ -1,0 +1,52 @@
+* { box-sizing: border-box; margin: 0; padding: 0}
+
+body {
+    font-family: 'Noto Serif KR', serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#big_table{position: relative;
+    top:100px;
+    
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#big_table td {
+    border: solid aqua 0px;
+    
+}
+
+.dnjsth_name {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 500;
+    
+} 
+
+.table_text td{
+    width: 150px;
+    height: 30px;
+    text-align: left;
+    font-size: 18px;
+    padding: 3px 2px;
+}   
+
+#image:hover {
+    border: solid magenta 0.5px;
+}
+
+.whr {
+    height: 30px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.wnrl {
+    width: 30px;
+    font-weight: 400;
+    font-size: 18px
+}
