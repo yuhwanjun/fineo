@@ -12,10 +12,27 @@
     <!-- link-->
 
     <!-- font -->
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css' rel='stylesheet' type='text/css'> 
+<!--
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR&display=swap" rel="stylesheet">
-    <!-- font -->
-
+-->
+    <!-- font --> 
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+      <script type="text/javascript">
+        $(function(){
+            $(".box .aa").hover(function(){
+                $(this).append("<div class='view'></div>");
+                var num = $(this).index();
+                $(".pop .bb").eq(num).clone().appendTo(".view",this);
+            },function(){
+                $(".view",this).remove();
+            });
+        });
+    </script>
+        
+        
     <script>
         let ticking = false;
 
@@ -80,29 +97,58 @@
 </head>
 
 <body>
+    <div class="pop">
+        <p class=bb>↖ «철학의 원리», 르네 데카르트<br><br>나는 사람들이 기하학에서 크기라고 부르며 기하학적 증명의 대상으로 간주하는 것, 즉 모든 방식으로 나누어질 수 있고 모양을 지닐 수 있고 운동할 수 있는 것 이외의 어떤 것도 물질로 인정하지 않는다는 것을 밝힌다. <br><br>( … ) 물질이나 물체 일반의 본성은 딱딱하다거나 무게를 지니고 있다거나 색을 띠고 있거나 또는 어떤 방식으로 감각을 자극하는 데 있는 것이 아니라 오로지 길이, 너비, 깊이로 연장되어 있다.<br><br>( … ) 어떤 물체의 관념을, 예를 들어 바위의 관념을 생각해보자. 그 관념으로부터 우리가 물체의 본성에 요구되지 않는다고 인식하는 것들을 모두 제외해보자. 우리는 당연히 딱딱함을 제일 먼저 제외할 것이다. 왜냐하면 바위는 녹거나 아주 미세한 분말로 쪼개지면 딱딱함을 잃게 되지만 그 때문에 물체가 아니게 되지는 않기 때문이다. 색 또한 제외할 것이다. 왜냐하면 어떤 색도 띠고 있지 않을 정도로 투명한 바위를 우리는 빈번하게 보았기 때문이다. 우리는 무거움도 제외할 것이다. 왜냐하면 불이 제아무리 가볍다 해도, 그 때문에 우리가 불을 물체로 여기는 데 주저하지는 않기 때문이다. 끝으로 우리는 차가움과 뜨거움 그리고 다른 모든 성질들을 제외할 것이다. 왜냐하면 바위가 그것들을 가지고 있지 않거나 혹은 그것들이 변한 경우에 우리는 바위가 그 때문에 물체의 본성을 잃었다고 생각하지는 않기 때문이다. 따라서 우리는 길이, 너비 그리고 깊이로 연장된 것 이외의 어떤 것도 바위의 관념 속에 남아 있게 되지 않는다는 것을 알게 된다. </p>
+    </div>
+    
+    
+    
     <div class="container">
         <div class="list">
-            <section class="need-margin up-on-scroll one">
-                <h1>fineo</h1>
-                구축된 물질 세계
+            <section class="need-margin up-on-scroll">
+                <div class="box">
+                    <img src='img/fineo_logo_big_white.png' style="width: 100%; margin-top: 3.3%; margin-bottom: 13px;">
+                    <p class="maintext" style="line-height: 37px; margin-left: 17.5%;">초코로로딩이 계획하고 개발한 프로젝트입니다.<br>
+                    Project initiated and developed by CHOCORORODING.<br><br>
+                    초코로로딩은 <a class="link" href="">유환준</a>, <a class="link" href="">안종훈</a>, <a class="link" href="">금재성</a>으로 이루어진 그룹입니다.<br>
+                    CHOCORORODING is a group of <a class="link" href="">Yoo Hwanjoon</a>, <a class="link" href="">Ahn Jonghoon</a>, and <a class="link" href="">Keum Jaeseong</a>.
+                    </p>
+                </div>
             </section>
-            <section class="need-margin up-on-scroll two">
-                Designed by
-                <p>Chcororoding</p>
-                환준 종훈 재성
+            
+            <section class="need-margin up-on-scroll">
+                <div class="box">
+                    <img src='img/solarsystem_big.gif' style="width:40%; position: absolute; left: 30%; ">
+                </div>
             </section>
             <section class="need-margin up-on-scroll">
-                <p class="AN_t">Artificial Nature</p>
+                <div class="box">
+                    <div class="index">주제<br>Theme</div>
+                    <div class="p1">
+                        <p class="maintext">"Artificial Nature" : 미래디자인, 꿈꾸는 인간<br><br>과학기술의 발달이 가속화됨에 따라 우리가 지각하고 경험하는 인공과 자연 간의 경계도 점점 더 불분명해지고 있다. 인공이 자연 같아지거나, 자연을 대체하면서 오랫동안 확실하던 자연의 고유성에 대해 우리는 의문을 품게 된다. '인공과 자연의 융합', 인공으로 재현된 자연의 본질', '인공으로 대체 불가한 자연', '인위적인 것이 자연을 대체하는 경지' 등 자연과 인공에 대한 고민과 고찰을 새로운 시대가 요구하는 예술과 과학, 경계를 넘나드는 융합을 통해 새로운 가치로 제시한다.<br><br><a href="https://design.kookmin.ac.kr/community/news/119">– 2019년 국민대학교 제16회 조형전 융합공모전 주제</a></p>
+                    </div>
+                    <div class="p2">
+                        <p class="maintext"><br><br></p>
+                        <p class="maintext_eng">As the development of science and technology accelerates, the boundary between man-made and nature that we perceive and experience is also becoming increasingly unclear As man-made things become like nature, or replace them, we question the uniqueness of nature, which has long been assured. It presents the concerns and considerations of nature and man-made, such as "The Convergence of Art and Nature," "The Nature of Art and Nature," "Nature Can't Replace with Artificial," and "The Land where Humanity Replaces Nature," as new values through the art, science and convergence across boundaries that the new era demands.<br><br><a href="https://design.kookmin.ac.kr/community/news/119">– 2019 The 16th Exhibition of College of Design, Kookmin Univ. Contest Exhibit Theme</a></p>
+                    </div>
+                </div>
             </section>
             <section class="need-margin up-on-scroll">
-                데카르트의 기계론에 따르면, 세계는 물질과 운동으로 이루어져 있다. 물질을 해체하면 원소가 되고, 원소의 운동이 곧 물질 세계의 운동이 된다.
+                <div class="box">
+                    <div class="index">개요<br>Outline</div>
+                    <div class="p1">
+                        <p class="maintext">데카르트의 <a class="aa">기계론↖</a>에 따르면, 세계는 물질과 운동으로 이루어져 있다. 물질을 해체하면 원소가 되고, 원소의 운동이 곧 물질세계의 운동이 된다. 또한 물질의 특징적 성격은 질량에 의해 결정되므로, 근본 물질인 원소의 질량 데이터를 대입한 수학 등식으로 물질세계를 역으로 구축 할 수 있다.<br><br>«fineo»는 개념적 가상세계를 구축하는 프로젝트다. 숫자 데이터에 기반한 개념 차원의 원자는 하모노그래프 방정식을 통해 3차원 공간에 그려진다. 공간을 품은 선의 형태인 원자를 분자 구조식을 기준으로 결합하여 더 큰 공간과 더 복잡해진 선의 형태인 분자를 만들고, 분자들을 결합하여 물질세계를 구현한다. 최종적으로 각각의 공간 모듈을 서로 엮고 확장하며 가상 공간에 물질세계를 구축하게 된다. 관람자는 VR기기와 홀로그램 프로젝션 영상, 웹을 통해 가상으로 구현된 물질세계를 체험할 수 있다.</p>
+                    </div>
+                    <div class="p2">
+                        <p class="maintext_eng">According to Descartes's theory of mechanics, the world is made up of matter and exercise. When a substance is dismantled, it becomes an element, and the movement of the element becomes a movement of the material world. In addition, the characteristic nature of a material is determined by its mass, so the material world can be constructed inversely by mathematical equations substituting the mass data of the element that is the fundamental material.<br><br>«fineo» is a project to build a conceptual virtual world. Conceptual atoms based on numerical data are drawn in a three-dimensional space through the harmonograph equation. By combining atoms, which are the form of lines that embrace space, based on molecular structural equations, we make molecules, which are the form of larger spaces and more complex lines, and by combining molecules, we embody the material world. Finally, each space module is woven and expanded, and the material world is built in virtual space. Visitors can experience a material world that is virtually implemented through VR devices, holographic projection videos, and the Web.</p>
+                    </div>
+                </div>
             </section>
-            <section class="need-margin up-on-scroll">
-                "fineo"는 기존의 존재하던 원소를 해체하고 이를 재구성하며 개념적 가상세계를 구축하는 프로젝트이다. 미시세계의 가장 작은 입자인 원소를 이미지화 시키고 이를 확장시켜 미래세대가 경험하게될 인공적인 자연, Artificial Nature를 구현한다.
-            </section>
-            <section class="need-margin up-on-scroll">
-                관람자는 구축된 자연환경을 가상환경, 홀로그램 영상, 웹을 통해 체험할 수 있다.
-            </section>
+            
+            
+            
+              
+                
             <section class="black-bg slide-up-wrap">
                 <h2>하모노그래프의 구현</h2>
                 <div>
