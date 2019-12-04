@@ -228,7 +228,9 @@ section > h2 {
 }
 
 .pop{
-    display: none;}
+    display: none;
+}
+
 .bb{
     font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
     position: absolute;
