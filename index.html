@@ -23,13 +23,16 @@
             var obj = document.getElementById("big");
             obj.src = "img/table/" + val;
         }
+
     </script>
 
     <!-- 로딩 -->
     <script>
-        setTimeout(function() {
+
+        $(window).load(function() {
             $(".loading").fadeOut();
-        }, 1000);
+        });
+
     </script>
     <!-- 로딩 -->
 
@@ -1313,6 +1316,7 @@
             });
 
         });
+
     </script>
     <!-- 주기율표 -->
 
@@ -1335,6 +1339,7 @@
                 $(".view", this).remove();
             });
         });
+
     </script>
 
     <script>
@@ -1396,6 +1401,7 @@
         }
 
         window.addEventListener('scroll', requestTick);
+
     </script>
 
 </head>
@@ -1926,4 +1932,6 @@
             </section>
         </div>
     </div>
-</body></html>
+</body>
+
+</html>
