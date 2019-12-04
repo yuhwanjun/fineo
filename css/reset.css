@@ -16,7 +16,6 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
 }
 
 /* make sure to set some focus styles for accessibility */
@@ -46,11 +45,6 @@ blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
 }
 
 input[type=search]::-webkit-search-cancel-button,
@@ -316,8 +310,7 @@ textarea {
  */
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+    
 }
 
 html,
