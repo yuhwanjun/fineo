@@ -201,6 +201,7 @@ section > h2 {
       
 }
 .index{
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
     position: absolute;
     top: 10%;
     margin-left: 3.5%;
@@ -211,6 +212,7 @@ section > h2 {
     transform: rotate(-8deg)
 }
 .p1{
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
     z-index: 10;
     position: absolute;
     margin-left: 17.5%;
@@ -218,6 +220,7 @@ section > h2 {
     top: 15%;
 }
 .p2{
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
     position: absolute;
     margin-left: 57.5%;
     width: 35%;
@@ -227,6 +230,7 @@ section > h2 {
 .pop{
     display: none;}
 .bb{
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
     position: absolute;
     width:80%;
     top:50px;
