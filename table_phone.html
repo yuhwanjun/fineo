@@ -1,0 +1,512 @@
+<html>
+
+<head>
+    <title>fineo 구축된 물질 세계</title>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <!-- link-->
+    <link rel="stylesheet" href="css/reset.css">
+<!--     <link rel="stylesheet" href="css/main.css">-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.js"></script>
+
+    <script src="js/main.js"></script>
+    <!-- link-->
+
+    <!-- font -->
+
+    <!--
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet'>
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css' rel='stylesheet'> 
+    -->
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500,700&display=swap&subset=korean" rel="stylesheet">
+    <!-- font -->
+
+    <style>
+        html {
+            background-color: black;
+            color: white;
+            font-family: "Noto Sans KR", sans-serif;
+        }
+        
+        #big_table {
+            font-family: 'Noto Sans KR', sans-serif;
+            width: 100%;
+            text-align: center;
+            font-size: 8px;
+            margin-top: 20px;
+        }
+
+        #big_table td {
+            border: solid #000000 1px;
+            padding: 2px;
+        }
+
+        #image:hover {
+            border: solid magenta 0.1px;
+        }
+
+        .whr {
+            height: 10px;
+            font-weight: 400;
+            font-size: 10px;
+        }
+
+        .wnrl {
+            font-family: 'Noto Sans KR', sans-serif;
+            width: 30px;
+            font-weight: 400;
+            font-size: 10px;
+        }
+
+        .small_table {
+            width: 100%;
+            border: 1px black solid;
+            margin-top: 20px;
+        }
+        
+        .small_table td{
+            width: 50%;
+            border: 1px black solid;
+        }
+        
+        .table_text {
+            border: 1px black solid;
+            width: 100%;
+        }
+
+        .table_text td {
+            text-align: left;
+            font-size: 12px;
+            padding: 3px 2px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <table class="small_table">
+        <tr>
+            <td><img src="img/table/1.png" style="width: 100%;" id="big"></td>
+            <td>
+                <table class="table_text">
+
+                    <tr>
+                        <td>
+                            <div class="dnjsth_name">H</div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="fsttext">이름</td>
+                        <td class="원자이름">수소</td>
+
+                    </tr>
+
+                    <tr>
+                        <td class="fsttext">원자 번호</td>
+                        <td class="원자번호">1</td>
+                    </tr>
+
+                    <tr>
+                        <td class="fsttext">주기</td>
+                        <td class="원자주기">1</td>
+                    </tr>
+
+                    <tr>
+                        <td class="fsttext">원자반지름</td>
+                        <td class="원자반지름">25</td>
+                    </tr>
+
+                    <tr>
+                        <td class="fsttext">원자가전자</td>
+                        <td class="원자가전자">1</td>
+                    </tr>
+
+                    <tr>
+                        <td class="fsttext">전기음성도</td>
+                        <td class="전기음성도">2.2</td>
+                    </tr>
+
+                    <tr>
+                        <td class="fsttext">족</td>
+                        <td class="족">1</td>
+                    </tr>
+
+                    <tr>
+                        <td class="fsttext">원자량</td>
+                        <td class="원자량">1.0079</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+    </table>
+
+    <table id="big_table">
+
+        <tr class="whr">
+            <td class="wnrl"></td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+        </tr>
+        <!----------------------------------------->
+        <tr class="whr1">
+            <td class="wnrl 1">1</td>
+            <td id="image" class="dnjsth_H" onmouseover="showBig('1.png')">
+                <img src="img/table/1.png" width="100%">
+            </td>
+
+            <td colspan=2></td>
+
+            <td colspan="4" rowspan="3">
+
+            <td colspan="5" rowspan="3">
+
+            </td>
+
+            <td colspan="5"></td>
+            <td id="image" class="dnjsth_He" onmouseover="showBig('2.png')"><img src="img/table/2.png" width="100%"></td>
+        </tr>
+
+        <tr class="whr2">
+            <td class="wnrl 2">2</td>
+            <td id="image" class="dnjsth_Li" onmouseover="showBig('3.png')">
+                <img src="img/table/3.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Be" onmouseover="showBig('4.png')">
+                <img src="img/table/4.png" width="100%">
+            </td>
+
+            <td></td>
+
+            <td id="image" class="dnjsth_B" onmouseover="showBig('5.png')">
+                <img src="img/table/5.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_C" onmouseover="showBig('6.png')">
+                <img src="img/table/6.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_N" onmouseover="showBig('7.png')">
+                <img src="img/table/7.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_O" onmouseover="showBig('8.png')">
+                <img src="img/table/8.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_F" onmouseover="showBig('9.png')">
+                <img src="img/table/9.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Ne" onmouseover="showBig('10.png')">
+                <img src="img/table/10.png" width="100%">
+            </td>
+
+        </tr>
+
+        <tr class="whr3">
+            <td class="wnrl 3">3</td>
+
+            <td id="image" class="dnjsth_Na" onmouseover="showBig('11.png')">
+                <img src="img/table/11.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Mg" onmouseover="showBig('12.png')">
+                <img src="img/table/12.png" width="100%">
+            </td>
+
+            <td></td>
+
+            <td id="image" class="dnjsth_Al" onmouseover="showBig('13.png')">
+                <img src="img/table/13.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Si" onmouseover="showBig('14.png')">
+                <img src="img/table/14.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_P" onmouseover="showBig('15.png')">
+                <img src="img/table/15.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_S" onmouseover="showBig('16.png')">
+                <img src="img/table/16.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Cl" onmouseover="showBig('17.png')">
+                <img src="img/table/17.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Ar" onmouseover="showBig('18.png')">
+                <img src="img/table/18.png" width="100%">
+            </td>
+        </tr>
+
+        <tr class="whr4">
+            <td class="wnrl 4">4</td>
+
+            <td id="image" class="dnjsth_K" onmouseover="showBig('19.png')">
+                <img src="img/table/19.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Ca" onmouseover="showBig('20.png')">
+                <img src="img/table/20.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Sc" onmouseover="showBig('21.png')">
+                <img src="img/table/21.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Ti" onmouseover="showBig('22.png')">
+                <img src="img/table/22.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_V" onmouseover="showBig('23.png')">
+                <img src="img/table/23.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Cr" onmouseover="showBig('24.png')">
+                <img src="img/table/24.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Mn" onmouseover="showBig('25.png')">
+                <img src="img/table/25.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Fe" onmouseover="showBig('26.png')">
+                <img src="img/table/26.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Co" onmouseover="showBig('27.png')">
+                <img src="img/table/27.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Ni" onmouseover="showBig('28.png')">
+                <img src="img/table/28.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Cu" onmouseover="showBig('29.png')">
+                <img src="img/table/29.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Zn" onmouseover="showBig('30.png')">
+                <img src="img/table/30.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Ga" onmouseover="showBig('31.png')">
+                <img src="img/table/31.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Ge" onmouseover="showBig('32.png')">
+                <img src="img/table/32.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_As" onmouseover="showBig('33.png')">
+                <img src="img/table/33.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Se" onmouseover="showBig('34.png')">
+                <img src="img/table/34.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Br" onmouseover="showBig('35.png')">
+                <img src="img/table/35.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Kr" onmouseover="showBig('36.png')">
+                <img src="img/table/36.png" width="100%">
+            </td>
+        </tr>
+
+        <tr class="whr5">
+            <td class="wnrl 5">5</td>
+
+            <td id="image" class="dnjsth_Rb" onmouseover="showBig('37.png')">
+                <img src="img/table/37.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Sr" onmouseover="showBig('38.png')">
+                <img src="img/table/38.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Y" onmouseover="showBig('39.png')">
+                <img src="img/table/39.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Zr" onmouseover="showBig('40.png')">
+                <img src="img/table/40.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Nb" onmouseover="showBig('41.png')">
+                <img src="img/table/41.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Mo" onmouseover="showBig('42.png')">
+                <img src="img/table/42.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Tc" onmouseover="showBig('43.png')">
+                <img src="img/table/43.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Ru" onmouseover="showBig('44.png')">
+                <img src="img/table/44.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Rh" onmouseover="showBig('45.png')">
+                <img src="img/table/45.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Pd" onmouseover="showBig('46.png')">
+                <img src="img/table/46.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Ag" onmouseover="showBig('47.png')">
+                <img src="img/table/47.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Cd" onmouseover="showBig('48.png')">
+                <img src="img/table/48.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_In" onmouseover="showBig('49.png')">
+                <img src="img/table/49.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Sn" onmouseover="showBig('50.png')">
+                <img src="img/table/50.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Sb" onmouseover="showBig('51.png')">
+                <img src="img/table/51.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Te" onmouseover="showBig('52.png')">
+                <img src="img/table/52.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_I" onmouseover="showBig('53.png')">
+                <img src="img/table/53.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Xe" onmouseover="showBig('54.png')">
+                <img src="img/table/54.png" width="100%">
+            </td>
+        </tr>
+
+        <tr class="whr6">
+            <td class="wnrl 6">6</td>
+
+            <td id="image" class="dnjsth_Cs" onmouseover="showBig('55.png')">
+                <img src="img/table/55.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Ba" onmouseover="showBig('56.png')">
+                <img src="img/table/56.png" width="100%">
+            </td>
+
+            <td style="font-size: 12px;">-</td>
+
+            <td id="image" class="dnjsth_Hf" onmouseover="showBig('72.png')">
+                <img src="img/table/72.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Ta" onmouseover="showBig('73.png')">
+                <img src="img/table/73.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_W" onmouseover="showBig('74.png')">
+                <img src="img/table/74.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Re" onmouseover="showBig('75.png')">
+                <img src="img/table/75.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Os" onmouseover="showBig('76.png')">
+                <img src="img/table/76.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Ir" onmouseover="showBig('77.png')">
+                <img src="img/table/77.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Pt" onmouseover="showBig('78.png')">
+                <img src="img/table/78.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Au" onmouseover="showBig('79.png')">
+                <img src="img/table/79.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Hg" onmouseover="showBig('80.png')">
+                <img src="img/table/80.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Tl" onmouseover="showBig('81.png')">
+                <img src="img/table/81.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Pb" onmouseover="showBig('82.png')">
+                <img src="img/table/82.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Bi" onmouseover="showBig('83.png')">
+                <img src="img/table/83.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Po" onmouseover="showBig('84.png')">
+                <img src="img/table/84.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_At" onmouseover="showBig('85.png')">
+                <img src="img/table/85.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Rn" onmouseover="showBig('86.png')">
+                <img src="img/table/86.png" width="100%">
+            </td>
+        </tr>
+
+        <tr class="whr7">
+            <td class="wnrl 7">7</td>
+
+            <td id="image" class="dnjsth_Fr" onmouseover="showBig('87.png')">
+                <img src="img/table/87.png" width="100%">
+            </td>
+
+            <td id="image" class="dnjsth_Ra" onmouseover="showBig('88.png')">
+                <img src="img/table/88.png" width="100%">
+            </td>
+        </tr>
+    </table>
+
+
+
+</body>
+
+</html>
