@@ -301,6 +301,10 @@ section > h2 {
     .box_phone {
         height: 500px;
     }
+    
+    .blank_bg {
+        display: none;
+    }
 }
 
 .pop {
